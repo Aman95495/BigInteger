@@ -352,41 +352,41 @@ struct BigInteger mod(struct BigInteger num1, struct BigInteger num2) {
     return temp;
 }
 
-int main(){
-    struct BigInteger a = initialize("0001550");
-    struct BigInteger b = initialize("000155");
+// int main(){
+//     struct BigInteger a = initialize("0001550");
+//     struct BigInteger b = initialize("000155");
 
-    printf("Number 1 :: ");display(a);
-    printf("Number 2 :: ");display(b);
+//     printf("Number 1 :: ");display(a);
+//     printf("Number 2 :: ");display(b);
     
-    // struct Node *current = a.L;
-    // while (current != NULL) {
-    //     printf("%d -> ", current->data);
-    //     current = current->next;
-    // }
-    // printf("NULL\n");
+//     struct Node *current = a.L;
+//     while (current != NULL) {
+//         printf("%d -> ", current->data);
+//         current = current->next;
+//     }
+//     printf("NULL\n");
 
-    // current = b.L;
-    // while (current != NULL) {
-    //     printf("%d -> ", current->data);
-    //     current = current->next;
-    // }
-    // printf("NULL\n");
+//     current = b.L;
+//     while (current != NULL) {
+//         printf("%d -> ", current->data);
+//         current = current->next;
+//     }
+//     printf("NULL\n");
 
-    struct BigInteger add_result = add(a,b);
-    printf("Addition :: ");display(add_result);
+//     struct BigInteger add_result = add(a,b);
+//     printf("Addition :: ");display(add_result);
 
-    struct BigInteger sub_result = sub(a,b);
-    printf("Subtraction :: ");display(sub_result);
+//     struct BigInteger sub_result = sub(a,b);
+//     printf("Subtraction :: ");display(sub_result);
 
-    struct BigInteger mul_result = mul(a,b);
-    printf("Multiplication :: ");display(mul_result);
+//     struct BigInteger mul_result = mul(a,b);
+//     printf("Multiplication :: ");display(mul_result);
 
-    struct BigInteger div_result = div1(a,b);
-    printf("Division :: ");display(div_result);
+//     struct BigInteger div_result = div1(a,b);
+//     printf("Division :: ");display(div_result);
 
-    struct BigInteger mod_result = mod(a,b);
-    printf("Modulus :: ");display(mod_result);
+//     struct BigInteger mod_result = mod(a,b);
+//     printf("Modulus :: ");display(mod_result);
 
-    return 0;
-}
+//     return 0;
+// }
